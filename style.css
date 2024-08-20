@@ -62,7 +62,7 @@ body {
   overflow: hidden;
   grid-gap: 5px;
 }
-.player__box--item {
+.player__item {
   background: aliceblue;
   border: 1px solid #333;
   width: auto;
@@ -73,7 +73,7 @@ body {
   justify-content: center;
 }
 
-.computer__box--item {
+.computer__item {
   background: aliceblue;
   border: 1px solid #333;
   width: auto;
@@ -82,4 +82,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.player__item.dragging {
+  opacity: 0.3;
 }
