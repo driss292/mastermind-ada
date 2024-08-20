@@ -1,1 +1,1 @@
-console.log("OK");
+let items = [...document.querySelectorAll(".player__box--item")];
